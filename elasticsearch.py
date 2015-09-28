@@ -41,7 +41,7 @@ STATS_ES1 = {
     'indices.search.open-contexts': Stat("gauge", "nodes.%s.indices.search.open_contexts"),
 
     ##CACHE
-    'indices.cache.field.eviction': Stat("counter", "nodes.%s.indices.fielddata.evictions"),
+    'indices.cache.field.evictions': Stat("counter", "nodes.%s.indices.fielddata.evictions"),
     'indices.cache.field.size': Stat("bytes", "nodes.%s.indices.fielddata.memory_size_in_bytes"),
     'indices.cache.filter.evictions': Stat("counter", "nodes.%s.indices.filter_cache.evictions"),
     'indices.cache.filter.size': Stat("bytes", "nodes.%s.indices.filter_cache.memory_size_in_bytes"),
